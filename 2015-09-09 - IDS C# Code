@@ -1,0 +1,62 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace IDS_C_Sharp_Semester_1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World");
+            Console.WriteLine("This is a new string, on a new line");
+            Console.WriteLine("So many of these should I do?");
+            Console.WriteLine("Can I please not. ");
+
+
+            //Booleans are variables that store True or False
+            bool canTry = true;
+            bool canNotTry = false;
+
+            Console.WriteLine(canTry);
+            Console.WriteLine(canNotTry);
+
+            // Character are variables that ONLY store one letter, number, etc. 
+            char gradeA = 'A';
+            char gradeB = 'B';
+
+            Console.WriteLine(gradeA);
+            Console.WriteLine(gradeB);
+
+            // Number Storage 
+
+            int maxInt = int.MaxValue;
+            Console.WriteLine(maxInt);
+
+            long maxLong = long.MaxValue;
+            Console.WriteLine(maxLong);
+
+            decimal maxDec = decimal.MaxValue;
+            Console.WriteLine(maxDec);
+
+            double maxDouble = double.MaxValue;
+            Console.WriteLine(maxDouble);
+
+            // Variables 
+
+
+            //var's are always static meaning they will not be able to change!
+            var name = "Sally";
+            Console.WriteLine(name); 
+
+
+            
+
+            //In order for the console to stay running this is required!
+            Console.WriteLine("Press Enter To Close...");
+            Console.ReadLine();
+        }
+    }
+}
